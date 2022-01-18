@@ -17,7 +17,7 @@ curl -fLO https://ghproxy.com/https://raw.githubusercontent.com/2511052/debi/mas
 运行脚本：
 
 ```
-sudo ./debi.sh --cdn --network-console --ethx --bbr --user root --password <新系统用户密码>
+sudo ./debi.sh --cdn --network-console arm64 --bbr --user root --password <新系统用户密码>
 ```
 
 * `--bbr` 开启 BBR
@@ -25,6 +25,7 @@ sudo ./debi.sh --cdn --network-console --ethx --bbr --user root --password <新�
 * `--cloud-kernel` 安装占用空间较小的 `cloud` 内核，但可能会导致 UEFI 启动的机器（如 Oracle、Azure 及 Hyper-V、Google Cloud 等）VNC 黑屏。BIOS 启动的普通 VPS 则没有此问题。
 * 默认时区为 UTC，添加 `--timezone Asia/Shanghai` 可使用中国时区。
 * 默认使用 Debian 官方 CDN 镜像源（deb.debian.org），添加 `--china` 可使用阿里云镜像源。
+* `--network-console` arm64  amd64
 
 如果没有报错可以重启：
 
