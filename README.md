@@ -11,7 +11,9 @@
 ```
 curl -fLO https://raw.githubusercontent.com/2511052/debi/master/debi.sh && chmod a+rx debi.sh
 ```
-
+```
+curl -fLO https://ghproxy.com/https://raw.githubusercontent.com/2511052/debi/master/debi.sh && chmod a+rx debi-cn.sh
+```
 运行脚本：
 
 ```
@@ -68,14 +70,14 @@ This script is written to reinstall a VPS/virtual machine to minimal Debian 11.
 
 Download the script with curl:
 
-    curl -fLO https://raw.githubusercontent.com/bohanyang/debi/master/debi.sh
+    curl -fLO https://raw.githubusercontent.com/2511052/debi/master/debi.sh
     
     # for IPv6-only machines
-    curl -fLO --resolve 'raw.githubusercontent.com:443:2a04:4e42::133' https://raw.githubusercontent.com/bohanyang/debi/master/debi.sh
+    curl -fLO --resolve 'raw.githubusercontent.com:443:2a04:4e42::133' https://raw.githubusercontent.com/2511052/debi/master/debi.sh
 
 or wget:
 
-    wget -O debi.sh https://raw.githubusercontent.com/bohanyang/debi/master/debi.sh
+    wget -O debi.sh https://raw.githubusercontent.com/2511052/debi/master/debi.sh
 
 ### 2. Run
 
